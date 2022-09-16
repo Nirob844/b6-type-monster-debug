@@ -16,6 +16,28 @@ body {
   margin: 0 auto;
 }
 
+ul {
+  margin-left: 45%;
+  margin-top: 10px;
+  padding: 0;
+  font-size: xx-large;
+  color: #9dffad;
+
+}
+
+li {
+  display: inline;
+}
+
+.aaa {
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  margin: 20px;
+}
+
 #question {
   height: 100px;
   display: flex;
@@ -151,6 +173,7 @@ button {
 #histories {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
   grid-gap: 10px;
   flex-wrap: wrap;
   /* justify-content: space-around; */
