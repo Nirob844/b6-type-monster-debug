@@ -20,15 +20,25 @@
 </body>
 <main>
     <section>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis reprehenderit laborum harum praesentium?
-            Quos
-            alias facere, assumenda consectetur sapiente quidem magni ducimus! Fugit dolorem, dolore, dicta asperiores
-            excepturi
-            deleniti eveniet reiciendis quia doloribus inventore pariatur suscipit natus libero aliquam quae non soluta.
-            Est
-            voluptate praesentium nemo, id fuga facilis asperiores!
-        </p>
+        <div>
+            <h2>Difference Between Local Storage, Session Storage. </h2>
+            <p>
+                localStorage and sessionStorage are relatively new APIs (meaning, not all legacy browsers will support
+                them) and are near identical (both in APIs and capabilities) with the sole exception of persistence.
+                sessionStorage (as the name suggests) is only available for the duration of the browser session (and is
+                deleted when the tab or window is closed) - it does, however, survive page reloads (source DOM Storage
+                guide - Mozilla Developer Network).
+
+                Clearly, if the data you are storing needs to be available on an ongoing basis then localStorage is
+                preferable to sessionStorage - although you should note both can be cleared by the user so you should
+                not rely on the continuing existence of data in either case.
+
+                localStorage and sessionStorage are perfect for persisting non-sensitive data needed within client
+                scripts between pages (for example: preferences, scores in games). The data stored in localStorage and
+                sessionStorage can easily be read or changed from within the client/browser so should not be relied upon
+                for storage of sensitive or security-related data within applications.
+            </p>
+        </div>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis reprehenderit laborum harum praesentium?
             Quos
