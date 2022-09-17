@@ -177,10 +177,9 @@ button {
 #histories {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 10px;
   grid-gap: 10px;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
+
 }
 
 .card {
@@ -190,7 +189,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
+  padding: 20px 10px;
   color: white;
   border-radius: 15px;
   background: rgb(255, 255, 255);
